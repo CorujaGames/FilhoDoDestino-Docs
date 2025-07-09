@@ -141,3 +141,11 @@
 - Som e música implementados?
 - Exportar uma versão jogável para distribuição/testes (ex: .exe, .apk, WebGL)
 - Criar trailer ou teaser simples para divulgar
+
+
+## Histórico de Versão
+
+| Versão | Data | Descrição  | Autor        | Revisor |
+| :-----: | :----: | :----------: | :------------: | :--------: |
+| 1.0 | 09/07/2025 | Criado Sprints | [Gabriel Sampaio](https://github.com/Faehzin) | [João Vitor Merlin](https://github.com/JvopBR)  |
+
