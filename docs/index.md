@@ -45,6 +45,8 @@ A equipe responsável pelo desenvolvimento deste projeto é composta por:
     <tr>
     <td align="center"><a href="https://github.com/jvopBR"><img src="https://avatars.githubusercontent.com/u/95287980?v=4" width="200px;" alt=""/><br/><sub><b>João Vitor Merlin</b></sub></a><br/>
     <td align="center"><a href="https://github.com/Faehzin"><img src="https://avatars.githubusercontent.com/u/143275888?v=4" width="200px;" alt=""/><br /><sub><b>Gabriel Sampaio</b></sub></a><br/>
+    <td align="center"><a href="https://github.com/LucasMF1"><img src="https://avatars.githubusercontent.com/u/141961882?v=4" width="200px;" alt=""/><br /><sub><b>Lucas Monteiro</b></sub></a><br/>
+    <td align="center"><a href="https://github.com/DBPerlin"><img src="https://avatars.githubusercontent.com/u/126252642?v=4" width="200px;" alt=""/><br /><sub><b>Manuella Perlin</b></sub></a><br/>
     </tr>
 </table>
 
