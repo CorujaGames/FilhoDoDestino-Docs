@@ -3,7 +3,7 @@
 
 
 ## Sobre o Projeto:
-Repositório para documentação do primeiro jogo da CorujaGames, Filho Do Destino.
+Repositório para documentação do primeiro jogo da CogujaDev, Filho Do Destino.
 O jogo se trata de um roguelite de turnos, onde o jogador deve equilibrar uma equipe de semideuses com habilidades únicas para enfrentar um mal maior. A cada morte do grupo, novos poderes são desbloqueados, e o progresso do jogador reflete na estratégia de combate futura.
 
 Inspirado em títulos como Hades, Clair Obscur e Dead Cells, o jogo visa oferecer partidas dinâmicas, desafiadoras e estrategicamente profundas, dentro de um escopo técnico viável para um primeiro projeto autoral.
@@ -56,4 +56,5 @@ A equipe responsável pelo desenvolvimento deste projeto é composta por:
 | Versão | Data | Descrição  | Autor        | Revisor |
 | :-----: | :----: | :----------: | :------------: | :--------: |
 | 1.0 | 09/07/2025 | Criado Sobre do projeto | [João Vitor Merlin](https://github.com/JvopBR) | [Gabriel Sampaio](https://github.com/Faehzin) |
+| 1.1 | 17/07/2025 | Atualizando nome da empresa | [João Vitor Merlin](https://github.com/JvopBR) | [Gabriel Sampaio](https://github.com/Faehzin) |
 
