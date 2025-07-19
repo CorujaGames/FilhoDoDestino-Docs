@@ -32,48 +32,54 @@
 | RF21   | Reiniciar do início em caso de morte | Como jogador, quero que a morte total reinicie o jogo na primeira etapa, para que a progressão tenha riscos reais. |
 | RF22   | Selecionar uma habilidade fixa após a morte | Como jogador, quero escolher uma habilidade para manter permanentemente após morrer, para evoluir o personagem mesmo com reinícios. |
 | RF23   | Ganhar pontos de habilidade por nível | Como jogador, quero ganhar novas habilidades a cada nível atingido, para expandir as capacidades do personagem durante a jornada. |
-| RF24   | Construir diferentes builds           | Como jogador, quero criar combinações únicas de habilidades, para experimentar diferentes estilos de jogo com o mesmo personagem. |
-| RF25   | Permitir subir de nível | Ao estar em um ponto de caronte, permite subir de nivel. |
+| RF24   | Permitir subir de nível | Ao estar em um ponto de caronte, permite subir de nivel. |
 
 ## Requisitos funcionais exploração 
 
 | Código | Nome                                     | Objetivo Específico |
 |--------|------------------------------------------|----------------------|
-| RF26   | Explorar o cenário  | Como jogador, quero explorar o mundo do jogo com movimentação em estilo *plataformer*, para vivenciar a aventura fora dos combates em turnos. |
-| RF27   | Integrar exploração e combate            | Como jogador, quero que o combate por turnos se inicie automaticamente ao entrar em contato com criaturas, para manter a fluidez entre exploração e batalha. |
-| RF28   | Gerar mapas procedurais                  | Como jogador, quero que os mapas gerais sejam gerados proceduralmente, para tornar cada exploração única com monstros e itens diferentes. |
-| RF29   | Definir o avanço por portas              | Como jogador, quero que o acesso aos próximos mapas dependa das portas encontradas, para que o progresso seja construído com base nas minhas escolhas. |
-| RF30   | Acessar portas de exploração             | Como jogador, quero encontrar portas que levem a novas áreas com ouro, inimigos e itens, para obter recursos e recompensas. |
-| RF31   | Acessar portas de Cáronte                | Como jogador, quero encontrar portas que levem aos pontos de Cáronte, para evoluir habilidades e reorganizar minha progressão. |
-| RF32   | Acessar portas de acampamento            | Como jogador, quero entrar em acampamentos para conversar com os personagens e recrutar novos aliados, para fortalecer minha equipe. |
-| RF33   | Acessar portas de tesouro                | Como jogador, quero encontrar portas que levem a locais com itens raros ou importantes para a narrativa, para aprofundar minha progressão. |
-| RF34   | Acessar portas de boss                   | Como jogador, quero encontrar portas que conduzam a inimigos mais poderosos, para testar minha força em combates desafiadores. |
-| RF35   | Desbloquear portas de lore               | Como jogador, quero que portas de história (lore) surjam após certo progresso, para acessar mapas e eventos principais da narrativa. |
-| RF36   | Progredir entre dois mundos              | Como jogador, quero explorar tanto o mundo comum quanto o submundo, para vivenciar diferentes desafios e descobertas ao longo da jornada. |
-| RF37   | Desbloquear áreas com itens adquiridos   | Como jogador, quero acessar áreas anteriormente bloqueadas utilizando itens coletados, para incentivar o retorno a locais já visitados. |
-| RF38   | Resolver puzzles ambientais              | Como jogador, quero resolver puzzles durante a exploração, para desbloquear recompensas, caminhos e interações com o ambiente. |
-| RF39   | Interagir com personagens no mapa        | Como jogador, quero interagir com NPCs e aliados durante a exploração, para descobrir histórias, obter recompensas e liberar novos personagens. |
+| RF25   | Integrar exploração e combate            | Como jogador, quero que o combate por turnos se inicie automaticamente ao entrar em contato com criaturas, para manter a fluidez entre exploração e batalha. |
+| RF26   | Definir o avanço por portas              | Como jogador, quero que o acesso aos próximos mapas dependa das portas encontradas, para que o progresso seja construído com base nas minhas escolhas. |
+| Código | Nome                         | Objetivo Específico |
+| RF27   | Acessar portas de exploração | Como jogador, quero encontrar diferentes tipos de portas durante a exploração, para acessar novas áreas com recompensas, como ouro, monstros, itens, pontos de evolução (portas de Cáronte), áreas de diálogo e recrutamento (portas de acampamento), itens raros (portas de tesouro) e combates desafiadores contra chefes (portas de boss).|
+| RF28   | Desbloquear portas de lore               | Como jogador, quero que portas de história (lore) surjam após certo progresso, para acessar mapas e eventos principais da narrativa. |
+| RF29   | Progredir entre dois mundos              | Como jogador, quero explorar tanto o mundo comum quanto o submundo, para vivenciar diferentes desafios e descobertas ao longo da jornada. |
+| RF30   | Desbloquear áreas com itens adquiridos   | Como jogador, quero acessar áreas anteriormente bloqueadas utilizando itens coletados, para incentivar o retorno a locais já visitados. |
+| RF31   | Resolver puzzles ambientais              | Como jogador, quero resolver puzzles durante a exploração, para desbloquear recompensas, caminhos e interações com o ambiente. |
+| RF32   | Interagir com personagens no mapa        | Como jogador, quero interagir com NPCs e aliados durante a exploração, para descobrir histórias, obter recompensas e liberar novos personagens. |
 
 ## Requisitos funcionais inventário
 
 | Código | Nome                                   | Objetivo Específico |
 |--------|----------------------------------------|----------------------|
-| RF40   | Criar um inventário com espaço limitado | Como jogador, quero ter um inventário com número limitado de espaços, para gerenciar estrategicamente os itens que carrego. |
-| RF41   | Definir capacidade inicial do inventário | Como jogador, quero que o inventário possua 10 espaços totais, para acomodar uma quantidade limitada de itens. |
-| RF42   | Armazenar itens básicos                | Como jogador, quero guardar itens como poção de cura, poção de velocidade, espadinha e gema, para utilizar durante a exploração e combate. |
-| RF43   | Fortalecer o personagem com itens       | Como jogador, quero que certos itens no inventário aumentem o dano ou habilidades do personagem, para otimizar minha performance sem necessidade de uso direto. |
-| RF44   | Utilizar itens do inventário            | Como jogador, quero usar itens de cura e apoio diretamente do inventário, para restaurar vida ou ganhar vantagens temporárias. |
-| RF45   | Organizar itens no estilo Resident Evil | Como jogador, quero organizar os itens visualmente em um grid com encaixe e rotação, para otimizar o uso do espaço disponível. |
-| RF46   | Rotacionar itens dentro do inventário   | Como jogador, quero rotacionar itens para encaixá-los melhor no espaço, para maximizar a capacidade de carregamento. |
-| RF47   | Definir inventário por personagem       | Como jogador, quero que cada personagem tenha seu próprio inventário com até 9 espaços, para personalizar os recursos de cada um. |
+| RF33   | Definir capacidade inicial do inventário | Como jogador, quero que o inventário possua 10 espaços totais, para acomodar uma quantidade limitada de itens. |
+| RF34   | Armazenar itens básicos                | Como jogador, quero guardar itens como poção de cura, poção de velocidade, espadinha e gema, para utilizar durante a exploração e combate. |
+| RF35   | Fortalecer o personagem com itens       | Como jogador, quero que certos itens no inventário aumentem o dano ou habilidades do personagem, para otimizar minha performance sem necessidade de uso direto. |
+| RF36  | Utilizar itens do inventário            | Como jogador, quero usar itens de cura e apoio diretamente do inventário, para restaurar vida ou ganhar vantagens temporárias. |
+| RF37   | Organizar itens no estilo Resident Evil | Como jogador, quero organizar os itens visualmente em um grid com encaixe e rotação, para otimizar o uso do espaço disponível. |
+| RF38   | Rotacionar itens dentro do inventário   | Como jogador, quero rotacionar itens para encaixá-los melhor no espaço, para maximizar a capacidade de carregamento. |
+| RF39   | Definir inventário por personagem       | Como jogador, quero que cada personagem tenha seu próprio inventário com até 9 espaços, para personalizar os recursos de cada um. |
 
 ## Requisitos funcionais comunicação 
 
 | Código | Nome                                      | Objetivo Específico |
 |--------|-------------------------------------------|----------------------|
-| RF48   | Transmitir lore por meio do ambiente      | Como jogador, quero compreender a história do jogo por meio de cenários, monumentos e diálogos, para me envolver com a narrativa de forma indireta. |
-| RF49   | Implementar sistema de diálogo com NPCs   | Como jogador, quero conversar com NPCs espalhados pelo mapa, para obter informações sobre o mundo, a história e os personagens. |
-| RF50   | Descobrir tópicos de diálogo              | Como jogador, quero desbloquear novos tópicos de conversa explorando o mapa, para expandir o conteúdo disponível nos diálogos. |
-| RF51   | Escolher tópicos durante a conversa       | Como jogador, quero selecionar tópicos específicos ao interagir com um NPC, para direcionar a conversa conforme meu interesse. |
-| RF52   | Exibir respostas dubladas dos NPCs        | Como jogador, quero que as falas dos NPCs sejam dubladas ao escolher um tópico, para tornar a experiência mais imersiva. |
-| RF53   | Retornar à lista de tópicos após cada fala | Como jogador, quero voltar à lista de tópicos após ouvir uma resposta, para continuar explorando as opções de diálogo disponíveis. |
+| RF40   | Transmitir lore por meio do ambiente      | Como jogador, quero compreender a história do jogo por meio de cenários, monumentos e diálogos, para me envolver com a narrativa de forma indireta. |
+| RF41   | Implementar sistema de diálogo com NPCs   | Como jogador, quero conversar com NPCs espalhados pelo mapa, para obter informações sobre o mundo, a história e os personagens. |
+| RF42   | Descobrir tópicos de diálogo              | Como jogador, quero desbloquear novos tópicos de conversa explorando o mapa, para expandir o conteúdo disponível nos diálogos. |
+| RF43   | Escolher tópicos durante a conversa       | Como jogador, quero selecionar tópicos específicos ao interagir com um NPC, para direcionar a conversa conforme meu interesse. |
+| RF44   | Exibir respostas dubladas dos NPCs        | Como jogador, quero que as falas dos NPCs sejam dubladas ao escolher um tópico, para tornar a experiência mais imersiva. |
+| RF45   | Retornar à lista de tópicos após cada fala | Como jogador, quero voltar à lista de tópicos após ouvir uma resposta, para continuar explorando as opções de diálogo disponíveis. |
+
+## Requisitos de nivelamento
+
+| Código | Nome                                     | Objetivo Específico |
+|--------|------------------------------------------|----------------------|
+| RF46   | Ganhar experiência por exploração e combate | Como jogador, quero ganhar XP ao derrotar inimigos e explorar áreas, para progredir no nivelamento do personagem. |
+| RF47   | Aumentar a probabilidade de habilidades mais fortes | Como jogador, quero que o avanço de nível aumente a chance de aparecerem habilidades de grau mais alto, para evoluir minhas estratégias de forma coerente. |
+| RF48   | Regressar ao início após a morte         | Como jogador, quero retornar ao início do jogo ao morrer, mantendo o nível equivalente às habilidades fixas escolhidas, para recomeçar com progressão parcial. |
+| RF49   | Fixar uma habilidade após cada retorno   | Como jogador, quero fixar uma habilidade permanente após cada morte, para construir gradualmente a build final do personagem. |
+| RF50   | Selecionar um personagem por retorno     | Como jogador, quero escolher um único personagem para fixar uma habilidade a cada retorno, para evoluir individualmente todos os membros da equipe. |
+| RF51   | Distribuir pontos de atributo após retorno | Como jogador, quero distribuir pontos de atributo fixos ao retornar, para melhorar velocidade, ataque e defesa dos personagens upados. |
+| RF52    | Construir builds completas por personagem | Como jogador, quero completar builds de todos os 6 personagens após múltiplos retornos, para personalizar completamente meu time antes de zerar o jogo. |
+
