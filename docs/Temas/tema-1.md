@@ -17,7 +17,7 @@ Como jogador, quero que a ordem dos turnos seja definida pela velocidade dos per
 - Em caso de empate de velocidade, o sistema deve aplicar um critério de desempate predefinido (ex: ID ou sorte).
 
 #### **Análise de risco**  
-Valor: 5 – Urgência: 4 – Risco: 2 – Esforço: 2 – Dependência: 3 – Prioridade: 16
+Valor: 5 – Urgência: 4 – Risco: 2 – Esforço: 2 – Dependência: 3 – Prioridade: 17
 
 
 ### US02 - Executar ações no turno
@@ -36,7 +36,7 @@ Como jogador, quero escolher entre atacar, usar item, passar a vez ou fugir, par
 - Passar turno não consome recursos, mas finaliza a vez do personagem.
 
 #### **Análise de risco**  
-Valor: 5 – Urgência: 4 – Risco: 2 – Esforço: 3 – Dependência: 4 – Prioridade: 18
+Valor: 5 – Urgência: 4 – Risco: 2 – Esforço: 3 – Dependência: 4 – Prioridade: 17
 
 ## Épico 1.2: Posicionamento tático e alcance
 
@@ -55,7 +55,7 @@ Como jogador, quero que o campo de batalha tenha posições com diferentes dist�
 - A movimentação consome o turno ou parte dele.
 
 #### **Análise de risco**  
-Valor: 4 – Urgência: 3 – Risco: 3 – Esforço: 4 – Dependência: 4 – Prioridade: 18
+Valor: 4 – Urgência: 3 – Risco: 3 – Esforço: 4 – Dependência: 4 – Prioridade: 14
 
 
 ### US04 - Restringir alcance dos ataques
@@ -72,7 +72,7 @@ Como jogador, quero que cada ataque só atinja inimigos nas posições permitida
 - Habilidades com múltiplos alvos devem respeitar o padrão de área.
 
 #### **Análise de risco**  
-Valor: 5 – Urgência: 4 – Risco: 3 – Esforço: 3 – Dependência: 3 – Prioridade: 18
+Valor: 5 – Urgência: 4 – Risco: 3 – Esforço: 3 – Dependência: 3 – Prioridade: 17
 
 ## Épico 1.3: Estratégias defensivas e interações táticas
 
@@ -107,7 +107,7 @@ Como jogador, quero que os inimigos ataquem com diferentes padrões, para adapta
 - O sistema pode antecipar ataques por animação ou marcação.
 
 #### **Análise de risco**  
-Valor: 5 – Urgência: 4 – Risco: 3 – Esforço: 3 – Dependência: 4 – Prioridade: 19
+Valor: 5 – Urgência: 4 – Risco: 3 – Esforço: 3 – Dependência: 4 – Prioridade: 17
 
 
 ### US07 - Exibir área de ataque inimigo
@@ -124,7 +124,7 @@ Como jogador, quero ver os espaços que serão atingidos pelos ataques inimigos,
 - A habilidade de percepção pode afetar essa visualização.
 
 #### **Análise de risco**  
-Valor: 5 – Urgência: 4 – Risco: 3 – Esforço: 3 – Dependência: 4 – Prioridade: 19
+Valor: 5 – Urgência: 4 – Risco: 3 – Esforço: 3 – Dependência: 4 – Prioridade: 17
 
 
 ### US08 - Alterar posições em combate
@@ -141,7 +141,7 @@ Como jogador, quero reposicionar meus personagens durante o ataque inimigo, para
 - Trocas entre posições distantes podem ser proibidas ou custar mais.
 
 #### **Análise de risco**  
-Valor: 4 – Urgência: 4 – Risco: 3 – Esforço: 3 – Dependência: 3 – Prioridade: 17
+Valor: 4 – Urgência: 4 – Risco: 3 – Esforço: 3 – Dependência: 3 – Prioridade: 15
 
 
 ### US09 - Ativar habilidades defensivas
@@ -158,7 +158,7 @@ Como jogador, quero ativar parry, desvio ou bloqueio conforme o personagem em po
 - As habilidades têm cooldown e condições para uso.
 
 #### **Análise de risco**  
-Valor: 5 – Urgência: 5 – Risco: 3 – Esforço: 4 – Dependência: 4 – Prioridade: 21
+Valor: 5 – Urgência: 5 – Risco: 3 – Esforço: 4 – Dependência: 4 – Prioridade: 18
 
 
 ### US10 - Usar habilidades com múltiplos alvos
@@ -175,7 +175,7 @@ Como jogador, quero que habilidades atinjam diferentes espaços, para adaptar o 
 - Aliados podem ser atingidos se estiverem na área.
 
 #### **Análise de risco**  
-Valor: 4 – Urgência: 4 – Risco: 3 – Esforço: 3 – Dependência: 3 – Prioridade: 17
+Valor: 4 – Urgência: 4 – Risco: 3 – Esforço: 3 – Dependência: 3 – Prioridade: 15
 
 ## Épico 1.4: Mecânicas especiais de combate
 
@@ -193,7 +193,7 @@ Como jogador, quero ativar uma mecânica especial quando todos os aliados prepar
 - O combo consome todos os turnos seguintes.
 
 #### **Análise de risco**  
-Valor: 5 – Urgência: 5 – Risco: 3 – Esforço: 4 – Dependência: 5 – Prioridade: 22
+Valor: 5 – Urgência: 5 – Risco: 3 – Esforço: 4 – Dependência: 5 – Prioridade: 19
 
 
 ### US12 - Executar roleta de dano
@@ -210,4 +210,4 @@ Como jogador, quero uma roleta como no *Dead by Daylight*, para causar dano máx
 - O tempo para ativação é limitado.
 
 #### **Análise de risco**  
-Valor: 4 – Urgência: 3 – Risco: 2 – Esforço: 3 – Dependência: 3 – Prioridade: 15
+Valor: 4 – Urgência: 3 – Risco: 2 – Esforço: 3 – Dependência: 3 – Prioridade: 13
