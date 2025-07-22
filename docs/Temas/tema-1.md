@@ -9,7 +9,6 @@ Como jogador, quero que a ordem dos turnos seja definida pela velocidade dos per
 
 #### **Critérios de aceitação**  
 - O sistema deve calcular a ordem de turnos com base no atributo de velocidade de cada personagem.  
-- A ordem deve ser exibida no início de cada rodada de combate.  
 - Mudanças de velocidade por efeitos temporários devem alterar a ordem nas rodadas seguintes.
 
 #### **Regras de negócio**  
@@ -117,11 +116,10 @@ Como jogador, quero ver os espaços que serão atingidos pelos ataques inimigos,
 
 #### **Critérios de aceitação**  
 - O sistema deve exibir visualmente a área de impacto antes da execução.  
-- A visualização deve ocorrer ao menos um turno antes.
+- A visualização deve ocorrer durante o ataque.
 
 #### **Regras de negócio**  
 - Apenas inimigos com ataques previsíveis devem exibir essa informação.  
-- A habilidade de percepção pode afetar essa visualização.
 
 #### **Análise de risco**  
 Valor: 5 – Urgência: 4 – Risco: 3 – Esforço: 3 – Dependência: 4 – Prioridade: 17
@@ -190,10 +188,10 @@ Como jogador, quero ativar uma mecânica especial quando todos os aliados prepar
 
 #### **Regras de negócio**  
 - A preparação é perdida se algum personagem for interrompido.  
-- O combo consome todos os turnos seguintes.
+- o combo consome o turno do último aliado a preparar-se.
 
 #### **Análise de risco**  
-Valor: 5 – Urgência: 5 – Risco: 3 – Esforço: 4 – Dependência: 5 – Prioridade: 19
+Valor: 3 – Urgência: 4 – Risco: 3 – Esforço: 4 – Dependência: 5 – Prioridade: 14
 
 
 ### US12 - Executar roleta de dano
