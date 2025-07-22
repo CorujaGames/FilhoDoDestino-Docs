@@ -61,12 +61,11 @@ Valor: 5 – Urgência: 5 – Risco: 3 – Esforço: 4 – Dependência: 5 – P
 Como jogador, quero explorar tanto o mundo comum quanto o submundo, para vivenciar diferentes desafios e descobertas ao longo da jornada.
 
 #### **Critérios de aceitação**  
-- O jogador pode alternar entre os dois mundos em locais específicos.  
+- O jogador progride para o próximo mundo em quesitos narrativos.  
 - Cada mundo possui estética, inimigos e itens próprios.  
 - A mudança de mundo impacta rotas, diálogos e eventos disponíveis.
 
 #### **Regras de negócio**  
-- Pontos de transição entre mundos são fixos e limitados.  
 - Itens obtidos em um mundo podem ser necessários no outro.
 
 #### **Análise de risco**  
