@@ -9,12 +9,11 @@ Como jogador, quero que o sistema de habilidades seja organizado em formato de �
 
 #### **Critérios de aceitação**  
 - As habilidades devem ser organizadas em uma estrutura hierárquica com ramificações.  
-- O jogador pode visualizar o progresso na árvore.  
 - Só é possível desbloquear habilidades com pré-requisitos atendidos.
 
 #### **Regras de negócio**  
-- Cada nó da árvore depende de pelo menos uma habilidade anterior desbloqueada.  
-- Habilidades finais exigem caminho completo.
+ - Habilidades de grau maior dependem do nivel do personagem.
+ - Habilidades podem necessitar de habilidades anteriores.
 
 #### **Análise de risco**  
 Valor: 5 – Urgência: 4 – Risco: 3 – Esforço: 4 – Dependência: 4 – Prioridade: 17
